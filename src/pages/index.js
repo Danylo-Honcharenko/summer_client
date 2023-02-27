@@ -45,7 +45,7 @@ export default Home;
 
 export async function getStaticProps() {
     try {
-        const response = await fetch("http://ec2-3-8-33-223.eu-west-2.compute.amazonaws.com:8000/api/entry");
+        const response = await fetch(process.env.GET);
         const entry = await response.json();
 
         return {

@@ -2,7 +2,7 @@ import store from "@/states/store";
 import {setData, setDataError} from "@/states/action";
 
 const postEntry = async (title, price, day, month, year) => {
-    const response = await fetch("http://ec2-3-8-33-223.eu-west-2.compute.amazonaws.com:8000/api/create-entry", {
+    const response = await fetch(process.env.POST, {
         method: 'POST',
         body: JSON.stringify({title, price, day, month, year}),
         headers: {
