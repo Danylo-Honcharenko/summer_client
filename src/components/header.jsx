@@ -17,7 +17,7 @@ const Header = () => {
                 <Link href='/' className={Style.linkNull}><h2 className={Style.logoText}>Summer</h2></Link>
             </div>
             <div>
-                <Link href='https://github.com/Danylo-Honcharenko/summer_27_02_2023.git' target="_blank"><Image src={GitHub} alt='GitHub' /></Link>
+                <Link href='https://github.com/Danylo-Honcharenko/summer_client' target="_blank"><Image src={GitHub} alt='GitHub' /></Link>
             </div>
         </header>
     );
