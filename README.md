@@ -5,3 +5,5 @@
 * Сборка `npm run build`
 * Запуск `npm start`
 * Разработка `npm run dev`
+
+![Summer.png](..%2F..%2F..%2F..%2FDownloads%2FSummer.png)
